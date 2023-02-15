@@ -1,0 +1,52 @@
+.sideNavbar{
+    width: 15%;
+    float:left;
+    display: inline-block;
+    z-index: 1;
+    position:fixed;
+    overflow-y: scroll;
+    
+}
+ul{
+  float: left;
+}
+
+li{
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+li a{
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 800;
+    font-family: Mulish, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+
+.active a{
+  background-color: #5da9e9;
+  padding: 5px 5px 5px 5px;
+  height: 25px;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+}
+
+
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+   ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+     ::-webkit-scrollbar-thumb {
+    background: #5da9e9; 
+  } 
+
+  
